@@ -18,11 +18,13 @@
             color: #ffffff; 
             display: flex; 
             justify-content: center; 
+            overflow-x: hidden; /* لمنع تحرك الشاشة يميناً ويساراً على الموبايل */
         }
         
         .container { 
             width: 100%; 
             max-width: 480px; 
+            margin: 0 auto; /* 👈 لتوسيط المستطيل في منتصف الشاشة */
             background-color: #1c242f; 
             min-height: 100vh; 
             position: relative; 
@@ -246,5 +248,3 @@
 
 </body>
 </html>
-
-```
